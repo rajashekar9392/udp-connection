@@ -28,7 +28,7 @@ class Serverall
 			    	  msg = new String(inpacket.getData(),0,inpacket.getLength());
 			    	  System.out.println("Client: "+source_address + ":" + source_port);
 			    	  
-			    	  String dirname="R:\\cnproject";
+			    	  String dirname="R:\\collections";
 			    	  File f1=new File(dirname);
 			    	  File fl[]=f1.listFiles();
 			    	  
